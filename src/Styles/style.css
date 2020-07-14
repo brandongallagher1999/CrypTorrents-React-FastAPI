@@ -1,0 +1,40 @@
+
+
+.pirate_icon
+{
+    background-image: url("https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F4%2F4a%2FPirate_icon.gif&f=1");
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    position: relative;
+}
+
+.pirate_icon:hover
+{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.middle_div
+{
+    position: absolute;
+    top: 10%;
+}
+
+h4
+{
+    color:yellow;
+}
+
+th
+{
+    color:yellow;
+}
+
+profile_box
+{
+    width: 75%;
+    height: 20%;
+    top: 100px;
+    position: relative;
+}
