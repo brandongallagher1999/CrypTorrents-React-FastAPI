@@ -14,11 +14,10 @@ export default class TorrentTable extends React.Component
 
     componentDidMount()
     {
-        console.log("HI!!!");
         let torrent_string = window.location.href.split("/")[4];
         console.log(window.location.href);
 
-        fetch(`http://localhost:8000/api/torrents/get/${torrent_string}`, {
+        fetch(`http://localhost:5000/api/torrents/get/${torrent_string}`, {
             headers : {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
