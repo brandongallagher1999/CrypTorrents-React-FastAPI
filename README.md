@@ -34,17 +34,15 @@ sorted by Seeders, and displays them beside a relevant picture from the DuckDuck
 1. Download Docker for Desktop (https://www.docker.com/products/docker-desktop)
 
 ## Container
-1. Go into /src/ folder
-2. Open Shell or CMD
-```sh
-docker build -t imageName .
-docker run -d --name containerName -p 80:80 imageName
+1. Go into root folder and run
+```
+docker-compose build
+docker-compose up
 ```
   
 ## Opening Web App
 1. Go into any browser, preferably Google Chrome
-2. In the URL bar, type "localhost:80"
-3. Enjoy!
+2. In the URL bar, type "localhost:3000"
 
 
 # Upcoming Changes
