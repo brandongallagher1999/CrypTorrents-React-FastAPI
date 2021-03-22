@@ -3,4 +3,4 @@ fastapi==0.44.0
 aiofiles==0.4.0
 uvicorn==0.11.7
 gunicorn==20.0.4
-jwt==0.6.1
+jwt==1.2.0
