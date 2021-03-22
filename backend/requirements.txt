@@ -1,6 +1,6 @@
 fastapi==0.44.0
 -e git+https://github.com/brandongallagher1999/TPB.git#egg=tpb
 aiofiles==0.4.0
-uvicorn==0.11.7
+uvicorn==0.13.4
 gunicorn==20.0.4
 jwt==1.2.0
