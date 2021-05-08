@@ -7,6 +7,7 @@ https://github.com/brandongallagher1999/CrypTorrents---FastAPI/
 
 ## Hosted Website URL
 http://cryptorrents.herokuapp.com/
+- **The website could currently be down to my Heroku Free-Tier running out of dyno hours. If this is the case, please run it using docker-compose.**
 - *Accessing website may be slow initially due to the Docker Container spinning up.*
 
 
