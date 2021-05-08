@@ -1,4 +1,4 @@
-fastapi==0.63.0
+fastapi==0.64.0
 -e git+https://github.com/brandongallagher1999/TPB.git#egg=tpb
 aiofiles==0.5.0
 uvicorn==0.13.4
