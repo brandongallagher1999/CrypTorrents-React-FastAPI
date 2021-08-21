@@ -38,7 +38,7 @@ sorted by Seeders, and displays them beside a relevant picture from the DuckDuck
 1. Go into root folder and run
 ```
 docker-compose build
-docker-compose up
+docker-compose up -d
 ```
   
 ## Opening Web App
