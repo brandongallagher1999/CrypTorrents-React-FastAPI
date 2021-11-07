@@ -8,8 +8,6 @@ services:
             dockerfile: Dockerfile
         ports:
             - "5000:5000"
-        volumes:
-            - "./backend"
 
     frontend:
         stdin_open: true
@@ -18,5 +16,3 @@ services:
             dockerfile: Dockerfile
         ports:
             - "3000:3000"
-        volumes:
-            - "./frontend"
