@@ -2,11 +2,6 @@ import React from 'react';
 
 export default class Torrent extends React.Component
 {
-    constructor(props)
-    {
-        super(props);
-    }
-    
 
     displayMagnet()
     {

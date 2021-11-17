@@ -17,7 +17,7 @@ class Pirate_API():
 
         self.iAPI = ImageAPI()
         self.config = ConfigManager()
-        self.website = TPB("https://thepiratebay.monster/") #Base URL for ThePirateBay
+        self.website = TPB("https://thepiratebay.org/") #Base URL for ThePirateBay
 
     def get_none(self) -> List[dict]:
         '''

@@ -1,7 +1,9 @@
-FROM nikolaik/python-nodejs:latest
+FROM node:16.6
 
 COPY . .
 
+RUN yarn install
+
 EXPOSE 3000
 
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["yarn", "start"]

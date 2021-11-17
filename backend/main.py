@@ -33,8 +33,8 @@ app.add_middleware(CORSMiddleware, allow_origins=origins, allow_methods=["*"], a
 
 
 
-@app.get("/api/torrents/get/{torrent}")
-async def get_torrent(request: Request, torrent: str) -> responses.JSONResponse:
+@app.get("/api/torrents/")
+async def get_torrent(request: Request, torrent: str = "") -> responses.JSONResponse:
     '''
     Gets the top 3 torrents as a JSON
 

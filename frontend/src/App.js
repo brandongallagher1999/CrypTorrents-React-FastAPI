@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import SearchBar from './Components/SearchBar';
 import TorrentTable from './Components/Torrent_Table';
@@ -13,11 +13,9 @@ function App() {
       <SearchBar></SearchBar>
 
       <BrowserRouter>
-      <div>
-        <Switch>
-          <Route path="/torrents/:torrent" component={TorrentTable}/>
-        </Switch>
-      </div>
+        <Routes>
+          <Route path="/torrents/:torrent" element={<TorrentTable/>}/>
+        </Routes>
     </BrowserRouter>
     </div>
 
