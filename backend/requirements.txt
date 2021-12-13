@@ -1,4 +1,4 @@
-fastapi==0.70.0
+fastapi==0.70.1
 -e git+https://github.com/brandongallagher1999/TPB.git#egg=thepiratebay
 aiofiles==0.8.0
 uvicorn==0.16.0
